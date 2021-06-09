@@ -474,3 +474,6 @@ function colorear(coors, row, col) {
     }
     return false;
 }
+module.exports = {
+    colorear
+}

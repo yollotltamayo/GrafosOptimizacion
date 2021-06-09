@@ -1,0 +1,18 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "utility functions for frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "graph",
+    "dom"
+  ],
+  "author": "mucinoab",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.0.4"
+  }
+}

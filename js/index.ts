@@ -583,7 +583,7 @@ function renderResponseDijkstra(data: ResponseDijkstra) {
   respuesta.style.setProperty("display", "block", 'important');
 }
 
-function colorear(coors: Array<coor>, row: number, col: number): boolean {
+export function colorear(coors: Array<coor>, row: number, col: number): boolean {
   for (const cord of coors) {
     if (cord.row === row && cord.col === col) return true;
   }
